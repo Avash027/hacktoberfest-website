@@ -1,0 +1,26 @@
+.section {
+  &-hero {
+    height: 80vh;
+    width: 100%;
+    background-color: $color-background-primary;
+
+    &__title {
+      display: block;
+      height: 89vh;
+      width: 65%;
+      margin: auto;
+    }
+  }
+}
+
+.spacer {
+  aspect-ratio: 16/9;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__divider {
+  background-image: url("/assets/layered-waves-haikei.svg");
+}

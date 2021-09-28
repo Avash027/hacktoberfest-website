@@ -1,0 +1,286 @@
+@media only screen and (max-width: 1397px) {
+  .footer-header {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 1245px) {
+  .section {
+    &-resources {
+      margin-top: -23rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1190px) {
+  .cards {
+    margin: 2rem auto;
+  }
+}
+
+@media only screen and (max-width: 1245px) {
+  .section {
+    &-roadmap {
+      margin-top: -22rem;
+    }
+  }
+  .footer {
+    margin-top: -23rem;
+  }
+}
+
+@media only screen and (max-width: 1119px) {
+  .section {
+    &-details {
+      margin-top: -21rem;
+    }
+
+    &-resources {
+      &__cards {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1063px) {
+  .section {
+    &-resources {
+      margin-top: -20rem;
+    }
+  }
+
+  .footer {
+    &-header {
+      font-size: 2.2rem;
+    }
+    height: 27rem;
+    background-color: $color-background-primary;
+    margin-top: -21rem;
+  }
+}
+
+@media only screen and (max-width: 965px) {
+  .section {
+    &-roadmap {
+      margin-top: -19rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 943px) {
+  body {
+    width: 100.5%;
+  }
+}
+@media only screen and (max-width: 916px) {
+  body {
+    width: 104%;
+  }
+
+  .heading-primary {
+    font-size: 2.5rem;
+  }
+
+  .section {
+    &-details {
+      margin-top: -19rem;
+      &__summary {
+        font-size: 15px;
+      }
+      &__cards {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .footer {
+    margin-top: -19rem;
+  }
+}
+
+@media only screen and (max-width: 879px) {
+  .section-resources {
+    margin-top: -18rem;
+  }
+}
+
+@media only screen and (max-width: 841px) {
+  .footer {
+    margin-top: -16rem;
+  }
+  .footer-header {
+    font-size: 1.7rem;
+  }
+
+  .footer-container-icon {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 823px) {
+  .section {
+    &-details {
+      margin-top: -16rem;
+    }
+    &-resources {
+      margin-top: -16rem;
+    }
+    &-roadmap {
+      margin-top: -17rem;
+    }
+  }
+
+  .heading-secondary {
+    word-spacing: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 711px) {
+  .section-resources {
+    margin-top: -14rem;
+    &__cards {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .section-roadmap {
+    margin-top: -14rem;
+  }
+
+  .footer {
+    margin-top: -12rem;
+  }
+}
+
+@media only screen and (max-width: 677px) {
+  .heading-primary {
+    font-size: 2rem;
+  }
+
+  .section {
+    &-details {
+      margin-top: -13rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 631px) {
+  .section {
+    &-resources {
+      margin-top: -12rem;
+    }
+
+    &-roadmap {
+      margin-top: -12rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 613px) {
+  body {
+    width: 105%;
+  }
+
+  .section {
+    &-hero {
+      height: 55vh;
+      &__title {
+        height: 62vh;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 547px) {
+  .section {
+    &-details {
+      margin-top: -10rem;
+    }
+
+    &-resources {
+      margin-top: -10rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 531px) {
+  .footer {
+    margin-top: -9rem;
+
+    &-header {
+      font-size: 1rem;
+    }
+  }
+
+  .section-roadmap {
+    margin-top: -10rem;
+  }
+}
+
+@media only screen and (max-width: 519px) {
+  .section-details__cards {
+    font-size: 10px;
+  }
+
+  .section-hero__title {
+    height: 46vh;
+  }
+
+  .section-hero {
+    height: 40vh;
+  }
+}
+
+@media only screen and (max-width: 443px) {
+  .section-hero__title {
+    height: 51vh;
+  }
+  .section-resources {
+    margin-top: -8rem;
+  }
+  .section-roadmap {
+    margin-top: -7rem;
+  }
+
+  .footer {
+    margin-top: -7rem;
+  }
+
+  .heading-primary {
+    font-size: 1.5rem;
+  }
+
+  .section-details__summary {
+    font-size: 12px;
+  }
+
+  .section-details__cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 431px) {
+  .section-details {
+    margin-top: -8rem;
+  }
+}
+
+@media only screen and (max-width: 363px) {
+  .section-resources {
+    margin-top: -6rem;
+  }
+
+  .section-details {
+    margin-top: -6rem;
+  }
+}
+
+@media only screen and (max-width: 338px) {
+  .section-hero__title {
+    height: 37vh;
+  }
+
+  .section-hero {
+    height: 31vh;
+  }
+}

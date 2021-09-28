@@ -1,0 +1,37 @@
+.section {
+  &-details {
+    margin-top: -25rem;
+    text-align: center;
+
+    &__summary {
+      max-width: 80%;
+      display: block;
+      margin: auto;
+      font-size: 20px;
+      text-transform: none;
+      text-align: justify;
+      line-height: 30px;
+      word-spacing: 7px;
+      font-weight: 400;
+    }
+
+    &__cards {
+      margin-top: 2rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+
+      &-header {
+        margin-top: 1rem;
+      }
+
+      &-content {
+        margin-top: 1rem;
+        padding: 1rem 2rem;
+      }
+    }
+  }
+}
+
+.details__divider {
+  background-image: url("/assets/layered-waves-haikei-2.svg");
+}

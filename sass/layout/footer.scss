@@ -1,0 +1,27 @@
+.footer {
+  margin-top: -27rem;
+  text-align: center;
+
+  &-container {
+    height: 15rem;
+    margin: auto;
+    margin-top: 5rem;
+    display: grid;
+    width: 80%;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    &-icon {
+      font-size: 4rem;
+      color: $color-primary;
+      transition: all 0.2s;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}
